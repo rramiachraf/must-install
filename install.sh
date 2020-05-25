@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# SNAP
+sudo apt update
+sudo apt install -y snapd
+
 # VS CODE
 sudo snap install code
 
@@ -51,3 +55,16 @@ sudo apt-get install -y sqlitebrowser
 sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
 sudo apt-get update
 sudo apt-get install -y qbittorrent
+
+# MPV
+sudo add-apt-repository ppa:mc3man/mpv-tests
+sudo apt install -y mpv
+
+# XDM
+wget https://github.com/subhra74/xdm/releases/download/7.2.11/xdm-setup-7.2.11.tar.xz
+sudo tar -xf xdm-setup-7.2.11.tar.xz
+cd xdm-setup-7.2.11
+sudo ./install.sh
+rm xdm-setup-7.2.11.tar.xz
+rm install.sh
+rm readme.txt
