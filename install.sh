@@ -68,3 +68,7 @@ sudo ./install.sh
 rm xdm-setup-7.2.11.tar.xz
 rm install.sh
 rm readme.txt
+
+# FFMPEG
+sudo apt-get update
+sudo apt install -y ffmpeg
