@@ -5,7 +5,7 @@ sudo apt update
 sudo apt install -y snapd
 
 # VS CODE
-sudo snap install code
+sudo snap install code --classic
 
 # SPOTIFY
 sudo snap install spotify
@@ -21,7 +21,7 @@ sudo snap install insomnia
 sudo snap install telegram-desktop
 
 # HEROKU
-sudo snap install heroku
+sudo snap install heroku --classic
 
 # GIT
 sudo apt-get update
@@ -45,7 +45,7 @@ sudo apt-get update
 sudo apt-get install -y mongodb-compass
 
 # YARN
-npm i yarn --global
+sudo npm i yarn --global
 
 # SQLITE BROWSER
 sudo apt-get update
